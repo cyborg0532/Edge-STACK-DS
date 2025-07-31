@@ -1,0 +1,36 @@
+#include<stdio.h>
+
+int stack[5];
+int top = -1;
+
+void push(int el){
+    stack[top+1] = el;
+    top++;
+}
+int pop(){
+
+     if(top==-1){
+        printf("nothing to pop out");
+    }else {
+        stack[top]= 0;
+        top--;
+    }
+}
+void printStack(){
+    for(int i=0;i<5;i++){
+        printf("%d ",stack[i]);
+
+    }printf("\n");
+}
+
+int main(){
+
+    pop();
+    printStack();
+
+
+
+
+
+return 0;
+}
