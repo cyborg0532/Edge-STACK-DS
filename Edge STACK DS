@@ -26,7 +26,7 @@ void printStack(){
 int main(){
 
     pop();
-    printStack();
+    printStack();//??cjcdvdvjdb
 
 
 
